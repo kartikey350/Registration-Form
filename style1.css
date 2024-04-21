@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+h2{
+    color: aqua;
+    font-size: 38px;
+}
+.register-base{
+    padding: 15px;
+    height: 600px;
+    width: 500px;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 10px 12px 135px black;
+}
+.box-1{
+    margin-top: 20px;
+    color: whitesmoke;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.register-label{
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-weight: 500;
+}
+.register-input{
+    background: rgba(6, 6, 6, 0.341);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.register-button{
+    margin-top: 50px;
+    width: 60%;
+    padding: 7px;
+    font-size: 22px;
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+.register-button:hover{
+    color: white;
+    background-color: red;
+}
+.register-input:focus{
+    outline: 1px solid cyan;
+    box-shadow: 2px 2px 20px cyan;
+}
